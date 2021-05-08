@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="输入两个数求和"
+        ></TextView>
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入数字"
+        ></EditText>
+<EditText
+    android:id="@+id/edit2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="请输入数字"
+    ></EditText>
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:text="secondeActivitiy"
+        android:onClick="onClick"
+        ></Button>
+
+</LinearLayout>
